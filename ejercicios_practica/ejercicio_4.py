@@ -17,10 +17,21 @@ x = 0
 # En cada iteracion del bucle debe incrementar el valor de "x" en "2"
 # e imprimir en pantalla el resultado de X (antes de incrementar) con print
 
+while x < 10 and x != 6:
+    print('El numero', x, 'cumple con lo establecido')
+    x += 2
+
 # Realice el mismo bucle "while" pero en vez de estar formado por una condición
 # compuesta, que el "while" siga iterando mientras <x sea menos a 10>, y dentro del
 # "while" consultar si <x es igual a 6>, y en ese caso realizar una interrupción del bucle
 # En cada iteracion del bucle debe incrementar el valor de "x" en "2"
 # e imprimir en pantalla el resultado de X (antes de incrementar) con print
+i = 0
+while i < 10:
+    print('Este numero no es el 6:', i)
+    i += 2
+    if i == 6:
+        print('Numero 6')
+        break
 
 print("terminamos!")

@@ -17,18 +17,20 @@ x = 0
 condicion = False
 
 # reemplace "condicion" por lo que crea necesario
-while condicion:    
+while x < 6:    
     print("Valor de x =", x)
     # Coloque la línea de código para que "x" incremente "1"
+    x += 1
 
-x = 5
+i = 5
 # Dado el siguiente "while", complete la condicion
-# para que el "while" itere siempre que <x sea mayor o igual a 0>
+# para que el "while" itere siempre que <i sea mayor o igual a 0>
 # Además, complete la línea de código necesaria para que
-# el valor de "x" decremente "1" en cada iteración
+# el valor de "i" decremente "1" en cada iteración
 
-while condicion:    # reemplace "condicion" por lo que crea necesario
-    print("Valor de x =", x)
-    # Coloque la línea de código para que "x" decremente "1"
+while i >=0:    # reemplace "condicion" por lo que crea necesario
+    print("Valor de i =", i)
+    # Coloque la línea de código para que "i" decremente "1"
+    i -= 1
 
 print("terminamos!")
